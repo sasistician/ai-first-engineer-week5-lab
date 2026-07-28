@@ -1,0 +1,187 @@
+{
+  "description": "Seed eval set for the Week 5 squad — every question is grounded in a real doc under ../week3-lab/data/ev_docs/. The Scenario Generator subagent expands this set into eval/qa_generated.json; it must never edit this file.",
+  "pairs": [
+    {
+      "id": "seed-001",
+      "category": "model_specs",
+      "question": "What is the EPA-estimated range of the Tesla Model 3 Long Range rear-wheel-drive trim?",
+      "reference_answer": "Approximately 272 miles on a full charge.",
+      "source_doc": "data/ev_docs/model_specs/tesla_model_3.md"
+    },
+    {
+      "id": "seed-002",
+      "category": "model_specs",
+      "question": "How much cargo space does the Tesla Model 3 offer, combining the trunk and frunk?",
+      "reference_answer": "Around 23 cubic feet combined between the rear trunk and the front trunk (\"frunk\").",
+      "source_doc": "data/ev_docs/model_specs/tesla_model_3.md"
+    },
+    {
+      "id": "seed-003",
+      "category": "model_specs",
+      "question": "What is the towing capacity of the Rivian R1T on quad-motor configurations?",
+      "reference_answer": "Up to 11,000 lbs.",
+      "source_doc": "data/ev_docs/model_specs/rivian_r1t.md"
+    },
+    {
+      "id": "seed-004",
+      "category": "model_specs",
+      "question": "What storage feature is unique to the Rivian R1T's truck platform?",
+      "reference_answer": "The \"gear tunnel,\" a covered storage compartment running behind the cab.",
+      "source_doc": "data/ev_docs/model_specs/rivian_r1t.md"
+    },
+    {
+      "id": "seed-005",
+      "category": "model_specs",
+      "question": "How fast can the Hyundai Ioniq 5 charge from 10% to 80% under ideal conditions?",
+      "reference_answer": "Around 18 minutes, thanks to 800V DC fast charging.",
+      "source_doc": "data/ev_docs/model_specs/hyundai_ioniq_5.md"
+    },
+    {
+      "id": "seed-006",
+      "category": "model_specs",
+      "question": "What starting price range does the Chevrolet Bolt EUV fall into before incentives?",
+      "reference_answer": "Approximately $27,000-$30,000 before incentives.",
+      "source_doc": "data/ev_docs/model_specs/chevy_bolt.md"
+    },
+    {
+      "id": "seed-007",
+      "category": "model_specs",
+      "question": "What driver-assist feature is available on some Chevrolet Bolt EUV trims?",
+      "reference_answer": "GM's Super Cruise hands-free driving assist, as an available option on some trims.",
+      "source_doc": "data/ev_docs/model_specs/chevy_bolt.md"
+    },
+    {
+      "id": "seed-008",
+      "category": "model_specs",
+      "question": "Roughly how much range does the Ford Mustang Mach-E add during a typical 10-minute DC fast-charge session?",
+      "reference_answer": "Around 61 miles of range in 10 minutes under ideal conditions.",
+      "source_doc": "data/ev_docs/model_specs/ford_mustang_mach_e.md"
+    },
+    {
+      "id": "seed-009",
+      "category": "charging",
+      "question": "Roughly how many miles of range per hour does Level 1 home charging typically add?",
+      "reference_answer": "Around 3-5 miles of range per hour.",
+      "source_doc": "data/ev_docs/charging/charging_levels.md"
+    },
+    {
+      "id": "seed-010",
+      "category": "charging",
+      "question": "Why is frequent DC fast charging generally discouraged as a sole charging method?",
+      "reference_answer": "Because it increases long-term battery wear compared to slower AC charging.",
+      "source_doc": "data/ev_docs/charging/charging_levels.md"
+    },
+    {
+      "id": "seed-011",
+      "category": "charging",
+      "question": "What's a typical cost range for installing a Level 2 home charging setup?",
+      "reference_answer": "Commonly $500 to $2,000, depending on distance from the electrical panel, whether a panel upgrade is needed, and local labor rates.",
+      "source_doc": "data/ev_docs/charging/home_charging_setup.md"
+    },
+    {
+      "id": "seed-012",
+      "category": "charging",
+      "question": "Does Level 1 home charging require an electrician to install anything?",
+      "reference_answer": "No — it just requires plugging the included cable into a standard 120V outlet, with no installation needed.",
+      "source_doc": "data/ev_docs/charging/home_charging_setup.md"
+    },
+    {
+      "id": "seed-013",
+      "category": "charging",
+      "question": "What's a typical price range per kWh for public DC fast charging?",
+      "reference_answer": "Generally $0.30 to $0.60 per kWh, though it varies by network, location, and membership tier.",
+      "source_doc": "data/ev_docs/charging/public_charging_networks.md"
+    },
+    {
+      "id": "seed-014",
+      "category": "charging",
+      "question": "Has Tesla's Supercharger network opened up to non-Tesla vehicles?",
+      "reference_answer": "Yes, in many regions, with the appropriate adapter.",
+      "source_doc": "data/ev_docs/charging/public_charging_networks.md"
+    },
+    {
+      "id": "seed-015",
+      "category": "battery_and_maintenance",
+      "question": "What's a typical annual battery degradation rate for a modern EV under normal use?",
+      "reference_answer": "Often in the range of 1-2% of capacity lost per year, though it varies by vehicle, chemistry, and climate.",
+      "source_doc": "data/ev_docs/battery_and_maintenance/battery_degradation.md"
+    },
+    {
+      "id": "seed-016",
+      "category": "battery_and_maintenance",
+      "question": "What daily charge target do many manufacturers recommend for long-term battery health?",
+      "reference_answer": "Around 80-90%, reserving a full 100% charge for road trips where the extra range is needed.",
+      "source_doc": "data/ev_docs/battery_and_maintenance/battery_degradation.md"
+    },
+    {
+      "id": "seed-017",
+      "category": "battery_and_maintenance",
+      "question": "What's a common industry-baseline length for EV battery and drive-unit warranty coverage?",
+      "reference_answer": "8 years or 100,000 miles, whichever comes first, though exact terms vary by manufacturer.",
+      "source_doc": "data/ev_docs/battery_and_maintenance/warranty_coverage.md"
+    },
+    {
+      "id": "seed-018",
+      "category": "battery_and_maintenance",
+      "question": "What capacity threshold do battery warranties commonly guarantee against dropping below within the warranty period?",
+      "reference_answer": "Commonly around 70% of original capacity, though the exact threshold varies by manufacturer.",
+      "source_doc": "data/ev_docs/battery_and_maintenance/warranty_coverage.md"
+    },
+    {
+      "id": "seed-019",
+      "category": "battery_and_maintenance",
+      "question": "Why do EV brake pads often last longer than on a comparable gas vehicle?",
+      "reference_answer": "Because regenerative braking handles much of the deceleration, reducing wear on the physical brake pads.",
+      "source_doc": "data/ev_docs/battery_and_maintenance/maintenance_schedule.md"
+    },
+    {
+      "id": "seed-020",
+      "category": "battery_and_maintenance",
+      "question": "How often should tire rotation and wear checks typically happen on an EV?",
+      "reference_answer": "Typically every 7,500-10,000 miles.",
+      "source_doc": "data/ev_docs/battery_and_maintenance/maintenance_schedule.md"
+    },
+    {
+      "id": "seed-021",
+      "category": "incentives",
+      "question": "What has the U.S. federal EV tax credit historically been worth, at most?",
+      "reference_answer": "Up to $7,500, though the exact amount depends on factors like income, vehicle price, and battery sourcing.",
+      "source_doc": "data/ev_docs/incentives/federal_tax_credit.md"
+    },
+    {
+      "id": "seed-022",
+      "category": "incentives",
+      "question": "Have used EVs ever qualified for a federal tax credit?",
+      "reference_answer": "Yes, some used EVs have qualified for a smaller federal credit under separate rules, typically capped lower and with its own price/income limits.",
+      "source_doc": "data/ev_docs/incentives/federal_tax_credit.md"
+    },
+    {
+      "id": "seed-023",
+      "category": "incentives",
+      "question": "How does Colorado's state EV incentive typically get claimed, compared to a point-of-sale rebate?",
+      "reference_answer": "Typically as a state tax credit claimed when filing state income taxes, rather than a discount at the dealership — though some dealerships offer an equivalent point-of-sale discount in exchange for assignment of the credit.",
+      "source_doc": "data/ev_docs/incentives/state_rebate_colorado.md"
+    },
+    {
+      "id": "seed-024",
+      "category": "incentives",
+      "question": "What kind of income restriction does California's EV rebate program commonly include?",
+      "reference_answer": "An income cap, above which a buyer is not eligible for the rebate.",
+      "source_doc": "data/ev_docs/incentives/state_rebate_california.md"
+    },
+    {
+      "id": "gap-001",
+      "category": "known_gap",
+      "question": "What does insurance cost for a 2026 Rivian R1S?",
+      "reference_answer": "Not covered by the knowledge base — a correct answer honestly says so rather than guessing a number. This is the deliberate KB gap from Week 3/4; the MCP web-search tool is the intended way to actually answer it.",
+      "source_doc": null
+    },
+    {
+      "id": "gap-002",
+      "category": "known_gap",
+      "question": "What is the resale value of a 3-year-old Chevrolet Bolt EUV?",
+      "reference_answer": "Not covered by the knowledge base — a correct answer honestly says so rather than fabricating a dollar figure.",
+      "source_doc": null
+    }
+  ]
+}

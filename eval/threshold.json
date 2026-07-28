@@ -1,0 +1,8 @@
+{
+  "description": "The launch gate the Assessment Synthesizer checks the squad's combined scorecard against. Failing any one of these fails the whole scorecard, regardless of how well the others score.",
+  "min_avg_accuracy": 4.0,
+  "min_avg_completeness": 4.0,
+  "min_avg_clarity": 3.5,
+  "max_ungrounded_claim_rate": 0.05,
+  "require_all_regression_tests_pass": true
+}

@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.DS_Store
+eval/answers_log.json
+eval/qa_generated.json
+eval/results/*.json
+scorecards/*.json
+!eval/results/.gitkeep
+!scorecards/.gitkeep
