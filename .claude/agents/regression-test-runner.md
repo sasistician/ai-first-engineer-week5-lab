@@ -14,7 +14,7 @@ jobs.
 Run EVBot's existing test suite from Week 3:
 
 ```
-cd ../week3-lab && uv run pytest --json-report --json-report-file=../week5-lab-repo/eval/results/pytest_raw.json -q
+cd ../week3-lab && uv run pytest --json-report --json-report-file=../ai-first-engineer-week5-lab/eval/results/pytest_raw.json -q
 ```
 
 If `--json-report` isn't available in the environment, fall back to running

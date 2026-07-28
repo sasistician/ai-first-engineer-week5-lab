@@ -12,7 +12,7 @@ Run from anywhere with EVBot's own environment (it depends on EVBot's
 chromadb/Ollama setup, so it must run inside week3-lab's uv project):
 
     cd ../week3-lab
-    uv run python ../week5-lab-repo/eval/run_batch.py
+    uv run python ../ai-first-engineer-week5-lab/eval/run_batch.py
 """
 
 import json
